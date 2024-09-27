@@ -27,4 +27,4 @@ jobs:
       - name: Start Backend Server
         run: uvicorn main:app --reload &
 
-uvicorn app.main:app --reload --port=8001
+
